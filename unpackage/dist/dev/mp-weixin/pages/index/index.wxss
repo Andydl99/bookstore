@@ -1,0 +1,59 @@
+
+.login-page.data-v-1cf27b2a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img2.soyoung.com/tieba/ios/post/20190627/3/c49a0115474133fd4f9e592e009e6c8d.jpg");
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+.login-form.data-v-1cf27b2a {
+  background-color: rgba(255, 255, 255, .4);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.form-group.data-v-1cf27b2a {
+  margin-bottom: 1rem;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+label.data-v-1cf27b2a {
+  display: block;
+}
+input[type="text"].data-v-1cf27b2a,
+input[type="password"].data-v-1cf27b2a,
+button.data-v-1cf27b2a {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.login-button.data-v-1cf27b2a {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.login-button.data-v-1cf27b2a:hover {
+  background-color: #0056b3;
+}
+.other-login-methods.data-v-1cf27b2a {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  gap:10px;
+  flex-direction: row;
+}
+.other-login-methods text.data-v-1cf27b2a {
+  margin-right: 10px;
+}
+.other-login-methods button.data-v-1cf27b2a {
+  margin: 0 10px;
+  padding: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}

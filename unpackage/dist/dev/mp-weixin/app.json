@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index1/index",
+    "pages/index1/index1",
+    "pages/index2/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffff",
+    "borderStyle": "white",
+    "color": "#000",
+    "selectedColor": "skublue",
+    "list": [
+      {
+        "text": "首页",
+        "iconPath": "static/首页 (1).png",
+        "selectedIconPath": "static/首页 (2).png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "书城",
+        "iconPath": "static/icon2扩展_书城 pre.png",
+        "selectedIconPath": "static/icon2扩展_书城 pre (1).png",
+        "pagePath": "pages/index1/index"
+      },
+      {
+        "text": "评论",
+        "iconPath": "static/评论 (1).png",
+        "selectedIconPath": "static/评论.png",
+        "pagePath": "pages/index2/index"
+      },
+      {
+        "text": "我的",
+        "iconPath": "static/个人中心.png",
+        "selectedIconPath": "static/个人中心 (1).png",
+        "pagePath": "pages/index1/index1"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
